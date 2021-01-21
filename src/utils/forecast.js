@@ -15,7 +15,7 @@ const forecast = (lattitude,longitude, callback)=>{
         }else{
             const data = response.body.currently
            
-            console.log(data)
+           //console.log(data)
             const degree = data.temperature;
             const perception = data.precipProbability;
             
